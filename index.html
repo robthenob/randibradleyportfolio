@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Randi is a front-end developer based in Canada. She is skilled in HTML, CSS, Javascript, and responsive development."
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -18,41 +22,43 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Randi's Portfolio</title>
+    <title>Randi's Portfolio - Front-End Developer</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Randi Bradley</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="container">
       <div class="header">
         <div>
@@ -60,6 +66,126 @@
           <div id="title">
             <h1>Randi's Portfolio Page</h1>
           </div>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="container projects">
+          <div class="row mb-5">
+            <div class="col d-none d-lg-block">
+              <img
+                class="img-fluid rounded"
+                src="images/yogurt.png"
+                alt="Yogurt"
+              />
+            </div>
+            <div class="col">
+              <div class="project-description">
+                <h2>Responsive Weather App</h2>
+                <p>
+                  This static weather page includes responsive design, and API
+                  integration.
+                </p>
+                <div>
+                  <a
+                    href="https://dreamy-dijkstra-663899.netlify.app/"
+                    class="project-button"
+                    >View Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col">
+              <div class="project-description">
+                <h2>React Weather App</h2>
+                <p>
+                  A secondary version of my weather page was built using React,
+                  and includes API integration
+                </p>
+                <div>
+                  <a href="/work.html" class="project-button">View Project</a>
+                </div>
+              </div>
+            </div>
+            <div class="col d-none d-lg-block">
+              <img
+                class="img-fluid rounded"
+                src="images/weather.png"
+                alt="Weather Project"
+              />
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col d-none d-lg-block">
+              <img
+                class="img-fluid rounded"
+                src="images/dictionary.png"
+                alt="Dictionary Project"
+              />
+            </div>
+            <div class="col">
+              <div class="project-description">
+                <h2>Dictionary App</h2>
+                <p>
+                  This dictionary page was built in React, using API integration
+                </p>
+                <div>
+                  <a href="/work.html" class="project-button">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <footer>
+            <div
+              class="contact-box d-flex justify-content-between d-none d-lg-flex"
+            >
+              <div>
+                <h4>Work Inquiry</h4>
+                <p class="text-muted">Let's Work Together</p>
+              </div>
+              <div class="mt-5">
+                <a
+                  href="/contact.html"
+                  class="hero-button"
+                  title="Contact Randi"
+                  >Contact Me</a
+                >
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <a
+                href="mailto:codergal@gmail.com"
+                class="email-link-footer"
+                title="Email Randi"
+                >codergal@gmail.com</a
+              >
+            </div>
+            <div class="social-links d-flex justify-content-center">
+              <a
+                href="https://github.com/robthenob"
+                target="_blank"
+                title="GitHub Profile"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/codergal/"
+                target="_blank"
+                title="Instagram Profile"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <p class="text-center mt-5">
+              This website was coded by Randi, and it is
+              <a
+                href="https://github.com/robthenob/portfolio-project"
+                target="_blank"
+                title="See Randi's code"
+                >open-sourced.</a
+              >✌️
+            </p>
+          </footer>
         </div>
       </div>
     </div>

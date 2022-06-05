@@ -11,6 +11,11 @@ body {
 .navbar {
   padding-left: 15px;
   background: var(--pop-color);
+}
+.navbar .nav-link {
+  color: #2f4454;
+}
+.navbar .navbar-brand {
   color: white;
 }
 .container {
